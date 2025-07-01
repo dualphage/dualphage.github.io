@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: url('fond-abstrait-blanc_23-2148810113 (2).webp') center center/cover no-repeat;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header {
+  padding-top: 3rem;
+}
+
+.product-image {
+  width: 30%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #047d9c;
+}
+
+h2 {
+  color: #555;
+  margin: 0.5rem 0 1rem;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: #047d9c;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #047d9c;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #03596e;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 3rem 0;
+}
+
+.description h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.commander {
+  background: rgba(4, 125, 156, 0.1);
+  padding: 3rem 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+footer .socials a:hover {
+  color: #00d5ff;
+}
